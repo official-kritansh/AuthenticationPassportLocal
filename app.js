@@ -8,7 +8,7 @@ var express = require("express"),
     mongoose = require("mongoose");
 
 app.use(require("express-session")({
-    secret:"Rusty is Motherfucker",
+    secret:"Rusty is a Dog",
     resave:false,
     saveUninitialized:false
 
